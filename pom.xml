@@ -15,6 +15,7 @@
         <module>dflib-csv</module>
         <module>dflib-echarts</module>
         <module>dflib-excel</module>
+        <module>dflib-iceberg</module>
         <module>dflib-jdbc</module>
         <module>dflib-json</module>
         <module>dflib-parquet</module>
@@ -62,6 +63,7 @@
         <mustache.version>0.9.10</mustache.version>
         <parquet.version>1.15.1</parquet.version>
         <hadoop.version>3.4.1</hadoop.version>
+        <iceberg.version>1.8.1</iceberg.version>
         <jjava.version>1.0-M3</jjava.version>
         <mysql.version>9.1.0</mysql.version>
     </properties>
@@ -94,6 +96,13 @@
                 <groupId>org.dflib.jjava</groupId>
                 <artifactId>jupyter-jvm-basekernel</artifactId>
                 <version>${jjava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.iceberg</groupId>
+                <artifactId>iceberg-bom</artifactId>
+                <version>${iceberg.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
