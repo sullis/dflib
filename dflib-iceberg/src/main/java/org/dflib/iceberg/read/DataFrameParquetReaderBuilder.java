@@ -1,4 +1,4 @@
-package org.dflib.parquet.read;
+package org.dflib.iceberg.read;
 
 import org.apache.parquet.hadoop.ParquetReader;
 import org.apache.parquet.hadoop.api.ReadSupport;

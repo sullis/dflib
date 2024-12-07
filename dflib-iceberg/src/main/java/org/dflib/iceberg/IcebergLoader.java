@@ -9,8 +9,8 @@ import org.dflib.DataFrame;
 import org.dflib.Extractor;
 import org.dflib.Index;
 import org.dflib.builder.DataFrameAppender;
-import org.dflib.parquet.read.DataFrameParquetReaderBuilder;
-import org.dflib.parquet.read.SchemaProjector;
+import org.dflib.iceberg.read.DataFrameParquetReaderBuilder;
+import org.dflib.iceberg.read.SchemaProjector;
 
 import java.io.File;
 import java.io.IOException;
