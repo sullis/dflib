@@ -1,20 +1,14 @@
 package org.dflib.iceberg;
 
-import org.apache.parquet.hadoop.ParquetReader;
-import org.apache.parquet.io.LocalInputFile;
 import org.apache.parquet.schema.GroupType;
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.Type;
 import org.dflib.DataFrame;
 import org.dflib.Extractor;
 import org.dflib.Index;
-import org.dflib.builder.DataFrameAppender;
-import org.dflib.iceberg.read.DataFrameParquetReaderBuilder;
 import org.dflib.iceberg.read.SchemaProjector;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.UncheckedIOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
