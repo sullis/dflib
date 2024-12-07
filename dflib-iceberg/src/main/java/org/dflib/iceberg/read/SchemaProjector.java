@@ -1,4 +1,4 @@
-package org.dflib.parquet.read;
+package org.dflib.iceberg.read;
 
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.Type;
