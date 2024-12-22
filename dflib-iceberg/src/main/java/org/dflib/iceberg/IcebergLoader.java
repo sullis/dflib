@@ -1,5 +1,6 @@
 package org.dflib.iceberg;
 
+import org.apache.iceberg.catalog.TableIdentifier;
 import org.apache.parquet.schema.GroupType;
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.Type;
@@ -88,6 +89,11 @@ public class IcebergLoader {
     }
 
     public DataFrame load(Path filePath) {
+        // todo
+        return null;
+    }
+
+    public DataFrame load(TableIdentifier tableIdentifier) {
         // todo
         return null;
     }
