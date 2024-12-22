@@ -63,7 +63,7 @@
         <mustache.version>0.9.10</mustache.version>
         <parquet.version>1.14.2</parquet.version>
         <hadoop.version>3.4.0</hadoop.version>
-        <iceberg.version>1.7.0</iceberg.version>
+        <iceberg.version>1.7.1</iceberg.version>
         <jjava.version>1.0-M3</jjava.version>
         <mysql.version>9.1.0</mysql.version>
     </properties>
